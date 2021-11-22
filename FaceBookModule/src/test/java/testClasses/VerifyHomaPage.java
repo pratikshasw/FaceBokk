@@ -20,6 +20,7 @@ import pomClasses.LoginPom;
 
 public class VerifyHomaPage extends BaseClass{
 
+	
 	WebDriver driver;
 	LoginPom login;
 	HomePagePom homepage;

@@ -35,6 +35,7 @@ public class HomePagePom {
 	private WebElement market;
 	
 	
+	
 	public HomePagePom(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);

@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SignUpPOM {
 	
+	
 	@FindBy(xpath = "//input[@name='firstname']")
 	private WebElement firstName;
 	

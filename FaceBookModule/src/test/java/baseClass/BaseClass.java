@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class BaseClass {
 
+	
 	public static WebDriver openChromeBrowser() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pratiksha\\Desktop\\VELOCITY\\Selenium_software\\chromedriver.exe");
 		 ChromeOptions option = new ChromeOptions();
