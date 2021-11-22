@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testClasses.VerifyHomaPage">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="logoutPage"/>
+          <include name="launchBrowser"/>
+          <include name="createPOM"/>
+          <include name="clearPomObject"/>
+          <include name="verifyNotification"/>
+          <include name="loginToApp"/>
+        </methods>
+      </class> <!-- testClasses.VerifyHomaPage -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" name="Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testClasses.VerifyHomaPage">
+        <methods>
+          <include name="closeTheBrowser"/>
+          <include name="logoutPage"/>
+          <include name="launchBrowser"/>
+          <include name="createPOM"/>
+          <include name="clearPomObject"/>
+          <include name="verifyNotification"/>
+          <include name="loginToApp"/>
+        </methods>
+      </class> <!-- testClasses.VerifyHomaPage -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
